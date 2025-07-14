@@ -10,4 +10,8 @@ body {
     text-align: center;
     margin-top: 2rem;
   }
-  
+
+  section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+  }
