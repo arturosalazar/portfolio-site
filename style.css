@@ -106,4 +106,41 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
+
+  @media (max-width: 768px) {
+    body {
+      padding: 0 1rem;
+    }
+  
+    #hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+  
+    #hero img {
+      width: 80%;
+      max-width: 250px;
+      height: auto;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+    }
+  
+    #about,
+    #projects {
+      padding: 1.5rem;
+      margin: 1rem auto;
+    }
+  
+    .project-card {
+      padding: 1rem;
+    }
+  
+    h1, h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
   
