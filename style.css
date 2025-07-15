@@ -199,6 +199,46 @@
     margin: 0 0.5rem;
   }
   
-  
+  #relevant-experience,
+#professional-experience {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#relevant-experience h2,
+#professional-experience h2 {
+  color: #003d66;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.experience-entry {
+  margin-bottom: 2rem;
+}
+
+.experience-entry h3 {
+  margin: 0;
+  color: #005b96;
+  font-size: 1.2rem;
+}
+
+.experience-entry p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.experience-entry ul {
+  padding-left: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.experience-entry li {
+  margin-bottom: 0.5rem;
+}
+
   
   
